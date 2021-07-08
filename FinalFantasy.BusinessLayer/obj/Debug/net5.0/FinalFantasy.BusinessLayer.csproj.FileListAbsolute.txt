@@ -1,0 +1,17 @@
+C:\Users\alessia.gualtieri\Desktop\Alessia\Avanade\Corso\Week8\FinalFantasy\FinalFantasy.BusinessLayer\obj\Debug\net5.0\FinalFantasy.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\alessia.gualtieri\Desktop\Alessia\Avanade\Corso\Week8\FinalFantasy\FinalFantasy.BusinessLayer\obj\Debug\net5.0\FinalFantasy.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alessia.gualtieri\Desktop\Alessia\Avanade\Corso\Week8\FinalFantasy\FinalFantasy.BusinessLayer\obj\Debug\net5.0\FinalFantasy.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\alessia.gualtieri\Desktop\Alessia\Avanade\Corso\Week8\FinalFantasy\FinalFantasy.BusinessLayer\obj\Debug\net5.0\FinalFantasy.BusinessLayer.AssemblyInfo.cs
+C:\Users\alessia.gualtieri\Desktop\Alessia\Avanade\Corso\Week8\FinalFantasy\FinalFantasy.BusinessLayer\obj\Debug\net5.0\FinalFantasy.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\alessia.gualtieri\Desktop\Alessia\Avanade\Corso\Week8\FinalFantasy\FinalFantasy.BusinessLayer\bin\Debug\net5.0\FinalFantasy.BusinessLayer.deps.json
+C:\Users\alessia.gualtieri\Desktop\Alessia\Avanade\Corso\Week8\FinalFantasy\FinalFantasy.BusinessLayer\bin\Debug\net5.0\FinalFantasy.BusinessLayer.dll
+C:\Users\alessia.gualtieri\Desktop\Alessia\Avanade\Corso\Week8\FinalFantasy\FinalFantasy.BusinessLayer\bin\Debug\net5.0\ref\FinalFantasy.BusinessLayer.dll
+C:\Users\alessia.gualtieri\Desktop\Alessia\Avanade\Corso\Week8\FinalFantasy\FinalFantasy.BusinessLayer\bin\Debug\net5.0\FinalFantasy.BusinessLayer.pdb
+C:\Users\alessia.gualtieri\Desktop\Alessia\Avanade\Corso\Week8\FinalFantasy\FinalFantasy.BusinessLayer\bin\Debug\net5.0\FinalFantasy.Core.dll
+C:\Users\alessia.gualtieri\Desktop\Alessia\Avanade\Corso\Week8\FinalFantasy\FinalFantasy.BusinessLayer\bin\Debug\net5.0\FinalFantasy.RepositoriesEF.dll
+C:\Users\alessia.gualtieri\Desktop\Alessia\Avanade\Corso\Week8\FinalFantasy\FinalFantasy.BusinessLayer\bin\Debug\net5.0\FinalFantasy.Core.pdb
+C:\Users\alessia.gualtieri\Desktop\Alessia\Avanade\Corso\Week8\FinalFantasy\FinalFantasy.BusinessLayer\bin\Debug\net5.0\FinalFantasy.RepositoriesEF.pdb
+C:\Users\alessia.gualtieri\Desktop\Alessia\Avanade\Corso\Week8\FinalFantasy\FinalFantasy.BusinessLayer\obj\Debug\net5.0\FinalFantasy.BusinessLayer.csproj.CopyComplete
+C:\Users\alessia.gualtieri\Desktop\Alessia\Avanade\Corso\Week8\FinalFantasy\FinalFantasy.BusinessLayer\obj\Debug\net5.0\FinalFantasy.BusinessLayer.dll
+C:\Users\alessia.gualtieri\Desktop\Alessia\Avanade\Corso\Week8\FinalFantasy\FinalFantasy.BusinessLayer\obj\Debug\net5.0\ref\FinalFantasy.BusinessLayer.dll
+C:\Users\alessia.gualtieri\Desktop\Alessia\Avanade\Corso\Week8\FinalFantasy\FinalFantasy.BusinessLayer\obj\Debug\net5.0\FinalFantasy.BusinessLayer.pdb
