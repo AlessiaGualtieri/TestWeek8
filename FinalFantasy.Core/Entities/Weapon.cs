@@ -11,6 +11,11 @@ namespace FinalFantasy.Core.Entities
         public string Name { get; set; }
         public int Damage { get; set; }
         public string Category { get; set; }
-        public ICollection<Creature> Creatures { get; set; }
+        public ICollection<Creature> Creatures { get; set; } = new List<Creature>();
+
+        public override string ToString()
+        {
+            return $"{Name} ({Damage} dmg)";
+        }
     }
 }

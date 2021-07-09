@@ -1,5 +1,0 @@
-C:\Users\alessia.gualtieri\Desktop\Alessia\Avanade\Corso\Week8\FinalFantasy\FinalFantasy.Mock\obj\Debug\net5.0\FinalFantasy.Mock.csproj.AssemblyReference.cache
-C:\Users\alessia.gualtieri\Desktop\Alessia\Avanade\Corso\Week8\FinalFantasy\FinalFantasy.Mock\obj\Debug\net5.0\FinalFantasy.Mock.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\alessia.gualtieri\Desktop\Alessia\Avanade\Corso\Week8\FinalFantasy\FinalFantasy.Mock\obj\Debug\net5.0\FinalFantasy.Mock.AssemblyInfoInputs.cache
-C:\Users\alessia.gualtieri\Desktop\Alessia\Avanade\Corso\Week8\FinalFantasy\FinalFantasy.Mock\obj\Debug\net5.0\FinalFantasy.Mock.AssemblyInfo.cs
-C:\Users\alessia.gualtieri\Desktop\Alessia\Avanade\Corso\Week8\FinalFantasy\FinalFantasy.Mock\obj\Debug\net5.0\FinalFantasy.Mock.csproj.CoreCompileInputs.cache

@@ -8,9 +8,7 @@ namespace FinalFantasy
         public static IBusinessLayer bl = new MainBusinessLayer();
         static void Main(string[] args)
         {
-            //bl.Register("Alessia");
-            //Console.WriteLine("Login avvenuto? " + bl.Login("Alessia"));
-            //Console.WriteLine("Login avvenuto? " + bl.Login("Giulia"));
+            Gaming.LoginMenu();
         }
     }
 }

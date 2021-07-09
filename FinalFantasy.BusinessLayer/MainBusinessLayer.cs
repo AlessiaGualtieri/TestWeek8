@@ -11,31 +11,47 @@ namespace FinalFantasy.BusinessLayer
 {
     public class MainBusinessLayer : IBusinessLayer
     {
-        //private IRepositoryGame repositoryGame;
         private IRepositoryGamer repositoryGamer;
         private IRepositoryHero repositoryHero;
+        private IRepositoryWeapon repositoryWeapon;
+        private IRepositoryMonster repositoryMonster;
 
         public MainBusinessLayer()
         {
-            //repositoryGame = new RepositoryGame();
             repositoryGamer = new RepositoryGamer();
             repositoryHero = new RepositoryHero();
+            repositoryWeapon = new RepositoryWeapon();
+            repositoryMonster = new RepositoryMonster();
         }
+
+        //HERO
 
         public bool AddHero(string nicknameGamer, string nameHero, string category, string weaponName)
         {
             return repositoryHero.AddHero(nicknameGamer,nameHero,category,weaponName);
         }
 
-        public bool DeleteHero(Hero hero)
+        public bool DeleteHero(string nicknameGamer, string nameHero)
         {
-            return repositoryHero.DeleteHero(hero);
+            int? heroID = repositoryHero.FindHeroByName(nicknameGamer, nameHero);
+            if (heroID == null)
+                return false;
+            int hID = (int)heroID;
+            return repositoryHero.DeleteHero(hID);
         }
 
-        public ICollection<Hero> GetHeroes()
+
+        public void ShowHeroes(string nickname)
         {
-            return repositoryHero.GetHeroes();
+            ICollection<Hero> heroes = repositoryHero.GetHeroes(nickname);
+            foreach (Hero h in heroes)
+            {
+                Console.WriteLine(h);
+            }
         }
+
+        // GAMER
+
 
         public bool Login(string nickname)
         {
@@ -45,6 +61,59 @@ namespace FinalFantasy.BusinessLayer
         public bool Register(string nickname)
         {
             return repositoryGamer.Register(nickname);
+        }
+        public bool GetHeroInfo(string nicknameGamer, string nameHero, ref int lvl,
+            ref int hp, ref int dmg)
+        {
+            Hero hero = repositoryHero.GetHeroes(nicknameGamer).FirstOrDefault(h => h.Name.Equals(nameHero));
+            if (hero == null)
+                return false;
+            lvl = hero.Level;
+            hp = hero.HP;
+            dmg = hero.Weapon.Damage;
+            return true;
+        }
+        //public int? GetHeroLevel(string nicknameGamer, string nameHero)
+        //{
+        //    Hero hero = repositoryHero.GetHeroes(nicknameGamer).FirstOrDefault(h => h.Name.Equals(nameHero));
+        //    if (hero == null)
+        //        return null;
+        //    return hero.Level;
+        //}
+
+
+        //Weapon
+        public void ShowHeroWeapons(string category)
+        {
+            repositoryWeapon.ShowHeroWeapons(category);
+        }
+        public bool AddWeaponToHero(string nicknameGamer, string nameHero, string weaponName)
+        {
+            int? heroID = repositoryHero.FindHeroByName(nicknameGamer, nameHero);
+            if (heroID == null)
+                return false;
+            int hID = (int)heroID;
+            return repositoryWeapon.AddWeaponToHero(hID,weaponName);
+        }
+
+        public void SelectMonster(int maxLvl, ref string name, ref string weaponName, ref int damage,
+            ref int monsterLvl, ref int monsterHP)
+        {
+            Monster monster = repositoryMonster.RandomMonster(maxLvl);
+            name = monster.Name;
+            weaponName = monster.WeaponName;
+            damage = monster.Weapon.Damage;
+            monsterLvl = monster.Level;
+            monsterHP = monster.HP;
+        }
+
+        public bool ChangeHeroExp(string nicknameGamer, string nameHero, int exp)
+        {
+            int? heroID = repositoryHero.FindHeroByName(nicknameGamer, nameHero);
+            if (heroID == null)
+                return false;
+            int hID = (int)heroID;
+            return repositoryHero.ChangeHeroExp(hID, exp);
         }
     }
 }

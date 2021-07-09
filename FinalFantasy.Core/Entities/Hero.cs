@@ -17,6 +17,11 @@ namespace FinalFantasy.Core.Entities
         public Gamer Gamer { get; set; }
         public string GamerNickname { get; set; }
 
+        public void IncrementExperience(int exp)
+        {
+            _experience += exp;
+        }
+
         protected override int CalculateLvl()
         {
             int thresholdExp = 0;
@@ -39,14 +44,25 @@ namespace FinalFantasy.Core.Entities
                         thresholdExp = 119;
                     break;
             }
-
             if(thresholdExp != 0)
             {
                 _level++;
                 _experience -= thresholdExp;
             }
-
             return _level;
+        }
+
+        public override string ToString()
+        {
+            return $"******************************\n" +
+                $"Name : {Name}\n" +
+                $"Category : {Category}\n" +
+                $"Weapon : {Weapon}\n" +
+                $"-----" +
+                $"Level : {Level}\n" +
+                $"Total HP : {HP}\n" +
+                $"Exp : {Experience}\n" +
+                $"******************************\n";
         }
     }
 }

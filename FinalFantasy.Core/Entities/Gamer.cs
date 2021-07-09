@@ -9,6 +9,6 @@ namespace FinalFantasy.Core.Entities
     public class Gamer
     {
         public string Nickname { get; set; }
-        public ICollection<Hero> Heroes { get; set; }
+        public ICollection<Hero> Heroes { get; set; } = new List<Hero>();
     }
 }

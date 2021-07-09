@@ -11,10 +11,10 @@ namespace FinalFantasy.RepositoriesEF
 {
     public class FinalFantasyContext : DbContext
     {
-        public DbSet<Gamer> Gamers;
-        public DbSet<Hero> Heroes;
-        public DbSet<Monster> Monsters;
-        public DbSet<Weapon> Weapons;
+        public DbSet<Gamer> Gamers { get; set; }
+        public DbSet<Hero> Heroes { get; set; }
+        public DbSet<Monster> Monsters { get; set; }
+        public DbSet<Weapon> Weapons { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -27,9 +27,11 @@ namespace FinalFantasy.RepositoriesEF
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration<Gamer>(new GamerConfiguration());
-            modelBuilder.ApplyConfiguration<Hero>(new HeroConfiguration());
             modelBuilder.ApplyConfiguration<Weapon>(new WeaponConfiguration());
+            modelBuilder.ApplyConfiguration<Creature>(new CreatureConfiguration());
             modelBuilder.ApplyConfiguration<Monster>(new MonsterConfiguration());
+
+            modelBuilder.Entity<Hero>().HasIndex(h => new { h.Name, h.GamerNickname}).IsUnique(true);
 
             modelBuilder.Entity<Gamer>().HasMany(g => g.Heroes).WithOne(h => h.Gamer)
                 .HasForeignKey(h => h.GamerNickname);

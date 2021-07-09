@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "G0Jp7qIPqulZNYsZhFYe/23s5r4BSqB5cVABJRk9gOayH5pcHaoJwoUML4evb0UH/K621tIOl5Hl+/zMznU/Vw==",
+  "dgSpecHash": "6i+CfIuXJG66Qnefr6BNOdTCdRGgflfW7pk1YdBUIjs/7an9IG6OvdTitkUHDJMTlgBAFHrFEO4bZGR3Prgt3A==",
   "success": true,
   "projectFilePath": "C:\\Users\\alessia.gualtieri\\Desktop\\Alessia\\Avanade\\Corso\\Week8\\FinalFantasy\\FinalFantasy\\FinalFantasy.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\alessia.gualtieri\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\alessia.gualtieri\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
+    "C:\\Users\\alessia.gualtieri\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\alessia.gualtieri\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\alessia.gualtieri\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",
     "C:\\Users\\alessia.gualtieri\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.7\\microsoft.entityframeworkcore.5.0.7.nupkg.sha512",
@@ -37,6 +38,7 @@
     "C:\\Users\\alessia.gualtieri\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\alessia.gualtieri\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\alessia.gualtieri\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\alessia.gualtieri\\.nuget\\packages\\system.codedom\\4.7.0\\system.codedom.4.7.0.nupkg.sha512",
     "C:\\Users\\alessia.gualtieri\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\alessia.gualtieri\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
     "C:\\Users\\alessia.gualtieri\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",

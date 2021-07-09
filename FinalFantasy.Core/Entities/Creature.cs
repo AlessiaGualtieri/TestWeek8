@@ -9,6 +9,7 @@ namespace FinalFantasy.Core.Entities
     public abstract class Creature
     {
         protected int _level = 1;
+        public int ID { get; set; }
         public string Name { get; set; }
         public string Category { get; set; }
         public Weapon Weapon { get; set; }

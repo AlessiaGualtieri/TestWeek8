@@ -13,9 +13,5 @@ namespace FinalFantasy.Core.Repositories
         public bool Register(string nickname);
 
         public bool Login(string nickname);
-
-        //public ICollection<Hero> GetHeroes();
-        //public void AddHero(Hero hero);
-        //public bool DeleteHero(Hero hero);
     }
 }
